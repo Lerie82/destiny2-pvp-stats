@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.playlist label {
+    color: #f00;
+    margin-right: 1rem;
+}
+
+.map label {
+    color: #f00;
+    margin-right: 0.7rem;
+}
+
+.duration {
+    float: left;
+}
+
+.social {
+    float: right;
+}
+
+.playlist * {
+    float: left;
+}
+
+.playlist :last-child {
+    margin-right: 0.8rem;
+}
+
+.map :first-child {
+    border-left: 6px solid #E2263C;
+    padding-inline-start: 10px;
+}
+
+.match-body {margin: 0.3rem;}
+
+.match-header {
+    margin: 0.3rem;
+}
+
+.match-footer {
+    margin: 0.3rem;
+}
+
+.stat-section{width: 32.7%;/* border: 1px solid #fff; */display: inline-block;}
+
+.section-stat img {width: 28px;}
+
+.stat-text {
+    color: #c00;
+}
+
+.section-stat label {
+    color: #f00;
+    position: absolute;
+    font-size: x-small;
+}
+
+body {
+	background-color:#000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.match-container {
+    background-color: #333;
+    height: 158px;
+    width: auto;
+    color: #fff;
+}
+
+
